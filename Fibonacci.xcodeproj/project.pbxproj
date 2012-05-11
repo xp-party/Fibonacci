@@ -21,10 +21,24 @@
 		B1DB43E3155D0F620032B2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C1155D0F620032B2AD /* Foundation.framework */; };
 		B1DB43EB155D0F620032B2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB43E9155D0F620032B2AD /* InfoPlist.strings */; };
 		B1DB43EE155D0F620032B2AD /* FibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB43ED155D0F620032B2AD /* FibonacciTests.m */; };
+		B1DB43FD155D12370032B2AD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43E0155D0F620032B2AD /* SenTestingKit.framework */; };
+		B1DB43FE155D12370032B2AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43BF155D0F620032B2AD /* UIKit.framework */; };
+		B1DB43FF155D12370032B2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C1155D0F620032B2AD /* Foundation.framework */; };
+		B1DB4405155D12370032B2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB4403155D12370032B2AD /* InfoPlist.strings */; };
+		B1DB4408155D12370032B2AD /* FibonacciUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */; };
+		B1E64967155D198500D349D1 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = B1E64966155D198500D349D1 /* Fibonacci.c */; };
+		B1E64969155D1AF400D349D1 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = B1E64966155D198500D349D1 /* Fibonacci.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B1DB43E4155D0F620032B2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1DB43B2155D0F610032B2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1DB43BA155D0F620032B2AD;
+			remoteInfo = Fibonacci;
+		};
+		B1E64962155D190600D349D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1DB43B2155D0F610032B2AD /* Project object */;
 			proxyType = 1;
@@ -38,22 +52,30 @@
 		B1DB43BF155D0F620032B2AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1DB43C1155D0F620032B2AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1DB43C3155D0F620032B2AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B1DB43C7155D0F620032B2AD /* Fibonacci-Info.plist */ = {isa = PBXFileReference; path = "Fibonacci-Info.plist"; sourceTree = "<group>"; };
+		B1DB43C7155D0F620032B2AD /* Fibonacci-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fibonacci-Info.plist"; sourceTree = "<group>"; };
 		B1DB43C9155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1DB43CB155D0F620032B2AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1DB43CD155D0F620032B2AD /* Fibonacci-Prefix.pch */ = {isa = PBXFileReference; path = "Fibonacci-Prefix.pch"; sourceTree = "<group>"; };
-		B1DB43CE155D0F620032B2AD /* XPAppDelegate.h */ = {isa = PBXFileReference; path = XPAppDelegate.h; sourceTree = "<group>"; };
+		B1DB43CD155D0F620032B2AD /* Fibonacci-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fibonacci-Prefix.pch"; sourceTree = "<group>"; };
+		B1DB43CE155D0F620032B2AD /* XPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPAppDelegate.h; sourceTree = "<group>"; };
 		B1DB43CF155D0F620032B2AD /* XPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPAppDelegate.m; sourceTree = "<group>"; };
-		B1DB43D1155D0F620032B2AD /* XPViewController.h */ = {isa = PBXFileReference; path = XPViewController.h; sourceTree = "<group>"; };
+		B1DB43D1155D0F620032B2AD /* XPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPViewController.h; sourceTree = "<group>"; };
 		B1DB43D2155D0F620032B2AD /* XPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPViewController.m; sourceTree = "<group>"; };
 		B1DB43D5155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XPViewController_iPhone.xib; sourceTree = "<group>"; };
 		B1DB43D8155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XPViewController_iPad.xib; sourceTree = "<group>"; };
 		B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DB43E0155D0F620032B2AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B1DB43E8155D0F620032B2AD /* FibonacciTests-Info.plist */ = {isa = PBXFileReference; path = "FibonacciTests-Info.plist"; sourceTree = "<group>"; };
+		B1DB43E8155D0F620032B2AD /* FibonacciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibonacciTests-Info.plist"; sourceTree = "<group>"; };
 		B1DB43EA155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1DB43EC155D0F620032B2AD /* FibonacciTests.h */ = {isa = PBXFileReference; path = FibonacciTests.h; sourceTree = "<group>"; };
+		B1DB43EC155D0F620032B2AD /* FibonacciTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciTests.h; sourceTree = "<group>"; };
 		B1DB43ED155D0F620032B2AD /* FibonacciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciTests.m; sourceTree = "<group>"; };
+		B1DB43FC155D12370032B2AD /* FibonacciUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DB4402155D12370032B2AD /* FibonacciUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibonacciUnitTests-Info.plist"; sourceTree = "<group>"; };
+		B1DB4404155D12370032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DB4406155D12370032B2AD /* FibonacciUnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciUnitTests.h; sourceTree = "<group>"; };
+		B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciUnitTests.m; sourceTree = "<group>"; };
+		B1DB4409155D12370032B2AD /* FibonacciUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FibonacciUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		B1E64965155D196200D349D1 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		B1E64966155D198500D349D1 /* Fibonacci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1DB43F8155D12370032B2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43FD155D12370032B2AD /* SenTestingKit.framework in Frameworks */,
+				B1DB43FE155D12370032B2AD /* UIKit.framework in Frameworks */,
+				B1DB43FF155D12370032B2AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +117,7 @@
 			children = (
 				B1DB43C5155D0F620032B2AD /* Fibonacci */,
 				B1DB43E6155D0F620032B2AD /* FibonacciTests */,
+				B1DB4400155D12370032B2AD /* FibonacciUnitTests */,
 				B1DB43BE155D0F620032B2AD /* Frameworks */,
 				B1DB43BC155D0F620032B2AD /* Products */,
 			);
@@ -95,6 +128,7 @@
 			children = (
 				B1DB43BB155D0F620032B2AD /* Fibonacci.app */,
 				B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */,
+				B1DB43FC155D12370032B2AD /* FibonacciUnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +154,8 @@
 				B1DB43D4155D0F620032B2AD /* XPViewController_iPhone.xib */,
 				B1DB43D7155D0F620032B2AD /* XPViewController_iPad.xib */,
 				B1DB43C6155D0F620032B2AD /* Supporting Files */,
+				B1E64965155D196200D349D1 /* Fibonacci.h */,
+				B1E64966155D198500D349D1 /* Fibonacci.c */,
 			);
 			path = Fibonacci;
 			sourceTree = "<group>";
@@ -150,6 +186,26 @@
 			children = (
 				B1DB43E8155D0F620032B2AD /* FibonacciTests-Info.plist */,
 				B1DB43E9155D0F620032B2AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1DB4400155D12370032B2AD /* FibonacciUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB4406155D12370032B2AD /* FibonacciUnitTests.h */,
+				B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */,
+				B1DB4401155D12370032B2AD /* Supporting Files */,
+			);
+			path = FibonacciUnitTests;
+			sourceTree = "<group>";
+		};
+		B1DB4401155D12370032B2AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB4402155D12370032B2AD /* FibonacciUnitTests-Info.plist */,
+				B1DB4403155D12370032B2AD /* InfoPlist.strings */,
+				B1DB4409155D12370032B2AD /* FibonacciUnitTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +249,25 @@
 			productReference = B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		B1DB43FB155D12370032B2AD /* FibonacciUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DB440A155D12370032B2AD /* Build configuration list for PBXNativeTarget "FibonacciUnitTests" */;
+			buildPhases = (
+				B1DB43F7155D12370032B2AD /* Sources */,
+				B1DB43F8155D12370032B2AD /* Frameworks */,
+				B1DB43F9155D12370032B2AD /* Resources */,
+				B1DB43FA155D12370032B2AD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E64963155D190600D349D1 /* PBXTargetDependency */,
+			);
+			name = FibonacciUnitTests;
+			productName = FibonacciUnitTests;
+			productReference = B1DB43FC155D12370032B2AD /* FibonacciUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +291,7 @@
 			targets = (
 				B1DB43BA155D0F620032B2AD /* Fibonacci */,
 				B1DB43DE155D0F620032B2AD /* FibonacciTests */,
+				B1DB43FB155D12370032B2AD /* FibonacciUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +315,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1DB43F9155D12370032B2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB4405155D12370032B2AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		B1DB43DD155D0F620032B2AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		B1DB43FA155D12370032B2AD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,6 +362,7 @@
 				B1DB43CC155D0F620032B2AD /* main.m in Sources */,
 				B1DB43D0155D0F620032B2AD /* XPAppDelegate.m in Sources */,
 				B1DB43D3155D0F620032B2AD /* XPViewController.m in Sources */,
+				B1E64967155D198500D349D1 /* Fibonacci.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +374,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1DB43F7155D12370032B2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB4408155D12370032B2AD /* FibonacciUnitTests.m in Sources */,
+				B1E64969155D1AF400D349D1 /* Fibonacci.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -283,6 +390,11 @@
 			isa = PBXTargetDependency;
 			target = B1DB43BA155D0F620032B2AD /* Fibonacci */;
 			targetProxy = B1DB43E4155D0F620032B2AD /* PBXContainerItemProxy */;
+		};
+		B1E64963155D190600D349D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1DB43BA155D0F620032B2AD /* Fibonacci */;
+			targetProxy = B1E64962155D190600D349D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +427,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B1DB43EA155D0F620032B2AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1DB4403155D12370032B2AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB4404155D12370032B2AD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -423,6 +543,36 @@
 			};
 			name = Release;
 		};
+		B1DB440B155D12370032B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FibonacciUnitTests/FibonacciUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "FibonacciUnitTests/FibonacciUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B1DB440C155D12370032B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FibonacciUnitTests/FibonacciUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "FibonacciUnitTests/FibonacciUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,6 +592,7 @@
 				B1DB43F3155D0F620032B2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1DB43F4155D0F620032B2AD /* Build configuration list for PBXNativeTarget "FibonacciTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +601,16 @@
 				B1DB43F6155D0F620032B2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DB440A155D12370032B2AD /* Build configuration list for PBXNativeTarget "FibonacciUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB440B155D12370032B2AD /* Debug */,
+				B1DB440C155D12370032B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
