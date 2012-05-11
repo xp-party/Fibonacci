@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1DB43C0155D0F620032B2AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43BF155D0F620032B2AD /* UIKit.framework */; };
+		B1DB43C2155D0F620032B2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C1155D0F620032B2AD /* Foundation.framework */; };
+		B1DB43C4155D0F620032B2AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C3155D0F620032B2AD /* CoreGraphics.framework */; };
+		B1DB43CA155D0F620032B2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB43C8155D0F620032B2AD /* InfoPlist.strings */; };
+		B1DB43CC155D0F620032B2AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB43CB155D0F620032B2AD /* main.m */; };
+		B1DB43D0155D0F620032B2AD /* XPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB43CF155D0F620032B2AD /* XPAppDelegate.m */; };
+		B1DB43D3155D0F620032B2AD /* XPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB43D2155D0F620032B2AD /* XPViewController.m */; };
+		B1DB43D6155D0F620032B2AD /* XPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DB43D4155D0F620032B2AD /* XPViewController_iPhone.xib */; };
+		B1DB43D9155D0F620032B2AD /* XPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DB43D7155D0F620032B2AD /* XPViewController_iPad.xib */; };
+		B1DB43E1155D0F620032B2AD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43E0155D0F620032B2AD /* SenTestingKit.framework */; };
+		B1DB43E2155D0F620032B2AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43BF155D0F620032B2AD /* UIKit.framework */; };
+		B1DB43E3155D0F620032B2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C1155D0F620032B2AD /* Foundation.framework */; };
+		B1DB43EB155D0F620032B2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB43E9155D0F620032B2AD /* InfoPlist.strings */; };
+		B1DB43EE155D0F620032B2AD /* FibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB43ED155D0F620032B2AD /* FibonacciTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1DB43E4155D0F620032B2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1DB43B2155D0F610032B2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1DB43BA155D0F620032B2AD;
+			remoteInfo = Fibonacci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1DB43BB155D0F620032B2AD /* Fibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DB43BF155D0F620032B2AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1DB43C1155D0F620032B2AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1DB43C3155D0F620032B2AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1DB43C7155D0F620032B2AD /* Fibonacci-Info.plist */ = {isa = PBXFileReference; path = "Fibonacci-Info.plist"; sourceTree = "<group>"; };
+		B1DB43C9155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DB43CB155D0F620032B2AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1DB43CD155D0F620032B2AD /* Fibonacci-Prefix.pch */ = {isa = PBXFileReference; path = "Fibonacci-Prefix.pch"; sourceTree = "<group>"; };
+		B1DB43CE155D0F620032B2AD /* XPAppDelegate.h */ = {isa = PBXFileReference; path = XPAppDelegate.h; sourceTree = "<group>"; };
+		B1DB43CF155D0F620032B2AD /* XPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPAppDelegate.m; sourceTree = "<group>"; };
+		B1DB43D1155D0F620032B2AD /* XPViewController.h */ = {isa = PBXFileReference; path = XPViewController.h; sourceTree = "<group>"; };
+		B1DB43D2155D0F620032B2AD /* XPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPViewController.m; sourceTree = "<group>"; };
+		B1DB43D5155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XPViewController_iPhone.xib; sourceTree = "<group>"; };
+		B1DB43D8155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XPViewController_iPad.xib; sourceTree = "<group>"; };
+		B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DB43E0155D0F620032B2AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B1DB43E8155D0F620032B2AD /* FibonacciTests-Info.plist */ = {isa = PBXFileReference; path = "FibonacciTests-Info.plist"; sourceTree = "<group>"; };
+		B1DB43EA155D0F620032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DB43EC155D0F620032B2AD /* FibonacciTests.h */ = {isa = PBXFileReference; path = FibonacciTests.h; sourceTree = "<group>"; };
+		B1DB43ED155D0F620032B2AD /* FibonacciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1DB43B8155D0F620032B2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43C0155D0F620032B2AD /* UIKit.framework in Frameworks */,
+				B1DB43C2155D0F620032B2AD /* Foundation.framework in Frameworks */,
+				B1DB43C4155D0F620032B2AD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB43DB155D0F620032B2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43E1155D0F620032B2AD /* SenTestingKit.framework in Frameworks */,
+				B1DB43E2155D0F620032B2AD /* UIKit.framework in Frameworks */,
+				B1DB43E3155D0F620032B2AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1DB43B0155D0F610032B2AD = {
+			isa = PBXGroup;
+			children = (
+				B1DB43C5155D0F620032B2AD /* Fibonacci */,
+				B1DB43E6155D0F620032B2AD /* FibonacciTests */,
+				B1DB43BE155D0F620032B2AD /* Frameworks */,
+				B1DB43BC155D0F620032B2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1DB43BC155D0F620032B2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43BB155D0F620032B2AD /* Fibonacci.app */,
+				B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1DB43BE155D0F620032B2AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43BF155D0F620032B2AD /* UIKit.framework */,
+				B1DB43C1155D0F620032B2AD /* Foundation.framework */,
+				B1DB43C3155D0F620032B2AD /* CoreGraphics.framework */,
+				B1DB43E0155D0F620032B2AD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1DB43C5155D0F620032B2AD /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43CE155D0F620032B2AD /* XPAppDelegate.h */,
+				B1DB43CF155D0F620032B2AD /* XPAppDelegate.m */,
+				B1DB43D1155D0F620032B2AD /* XPViewController.h */,
+				B1DB43D2155D0F620032B2AD /* XPViewController.m */,
+				B1DB43D4155D0F620032B2AD /* XPViewController_iPhone.xib */,
+				B1DB43D7155D0F620032B2AD /* XPViewController_iPad.xib */,
+				B1DB43C6155D0F620032B2AD /* Supporting Files */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		B1DB43C6155D0F620032B2AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43C7155D0F620032B2AD /* Fibonacci-Info.plist */,
+				B1DB43C8155D0F620032B2AD /* InfoPlist.strings */,
+				B1DB43CB155D0F620032B2AD /* main.m */,
+				B1DB43CD155D0F620032B2AD /* Fibonacci-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1DB43E6155D0F620032B2AD /* FibonacciTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43EC155D0F620032B2AD /* FibonacciTests.h */,
+				B1DB43ED155D0F620032B2AD /* FibonacciTests.m */,
+				B1DB43E7155D0F620032B2AD /* Supporting Files */,
+			);
+			path = FibonacciTests;
+			sourceTree = "<group>";
+		};
+		B1DB43E7155D0F620032B2AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB43E8155D0F620032B2AD /* FibonacciTests-Info.plist */,
+				B1DB43E9155D0F620032B2AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1DB43BA155D0F620032B2AD /* Fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DB43F1155D0F620032B2AD /* Build configuration list for PBXNativeTarget "Fibonacci" */;
+			buildPhases = (
+				B1DB43B7155D0F620032B2AD /* Sources */,
+				B1DB43B8155D0F620032B2AD /* Frameworks */,
+				B1DB43B9155D0F620032B2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fibonacci;
+			productName = Fibonacci;
+			productReference = B1DB43BB155D0F620032B2AD /* Fibonacci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1DB43DE155D0F620032B2AD /* FibonacciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DB43F4155D0F620032B2AD /* Build configuration list for PBXNativeTarget "FibonacciTests" */;
+			buildPhases = (
+				B1DB43DA155D0F620032B2AD /* Sources */,
+				B1DB43DB155D0F620032B2AD /* Frameworks */,
+				B1DB43DC155D0F620032B2AD /* Resources */,
+				B1DB43DD155D0F620032B2AD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1DB43E5155D0F620032B2AD /* PBXTargetDependency */,
+			);
+			name = FibonacciTests;
+			productName = FibonacciTests;
+			productReference = B1DB43DF155D0F620032B2AD /* FibonacciTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1DB43B2155D0F610032B2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B1DB43B5155D0F610032B2AD /* Build configuration list for PBXProject "Fibonacci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1DB43B0155D0F610032B2AD;
+			productRefGroup = B1DB43BC155D0F620032B2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1DB43BA155D0F620032B2AD /* Fibonacci */,
+				B1DB43DE155D0F620032B2AD /* FibonacciTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1DB43B9155D0F620032B2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43CA155D0F620032B2AD /* InfoPlist.strings in Resources */,
+				B1DB43D6155D0F620032B2AD /* XPViewController_iPhone.xib in Resources */,
+				B1DB43D9155D0F620032B2AD /* XPViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB43DC155D0F620032B2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43EB155D0F620032B2AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1DB43DD155D0F620032B2AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1DB43B7155D0F620032B2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43CC155D0F620032B2AD /* main.m in Sources */,
+				B1DB43D0155D0F620032B2AD /* XPAppDelegate.m in Sources */,
+				B1DB43D3155D0F620032B2AD /* XPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB43DA155D0F620032B2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB43EE155D0F620032B2AD /* FibonacciTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1DB43E5155D0F620032B2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1DB43BA155D0F620032B2AD /* Fibonacci */;
+			targetProxy = B1DB43E4155D0F620032B2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1DB43C8155D0F620032B2AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB43C9155D0F620032B2AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1DB43D4155D0F620032B2AD /* XPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB43D5155D0F620032B2AD /* en */,
+			);
+			name = XPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B1DB43D7155D0F620032B2AD /* XPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB43D8155D0F620032B2AD /* en */,
+			);
+			name = XPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		B1DB43E9155D0F620032B2AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB43EA155D0F620032B2AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1DB43EF155D0F620032B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1DB43F0155D0F620032B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1DB43F2155D0F620032B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibonacci/Fibonacci-Prefix.pch";
+				INFOPLIST_FILE = "Fibonacci/Fibonacci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1DB43F3155D0F620032B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibonacci/Fibonacci-Prefix.pch";
+				INFOPLIST_FILE = "Fibonacci/Fibonacci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1DB43F5155D0F620032B2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fibonacci.app/Fibonacci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibonacci/Fibonacci-Prefix.pch";
+				INFOPLIST_FILE = "FibonacciTests/FibonacciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B1DB43F6155D0F620032B2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fibonacci.app/Fibonacci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibonacci/Fibonacci-Prefix.pch";
+				INFOPLIST_FILE = "FibonacciTests/FibonacciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1DB43B5155D0F610032B2AD /* Build configuration list for PBXProject "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB43EF155D0F620032B2AD /* Debug */,
+				B1DB43F0155D0F620032B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DB43F1155D0F620032B2AD /* Build configuration list for PBXNativeTarget "Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB43F2155D0F620032B2AD /* Debug */,
+				B1DB43F3155D0F620032B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1DB43F4155D0F620032B2AD /* Build configuration list for PBXNativeTarget "FibonacciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB43F5155D0F620032B2AD /* Debug */,
+				B1DB43F6155D0F620032B2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1DB43B2155D0F610032B2AD /* Project object */;
+}
