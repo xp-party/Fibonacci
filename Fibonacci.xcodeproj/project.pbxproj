@@ -25,9 +25,7 @@
 		B1DB43FE155D12370032B2AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43BF155D0F620032B2AD /* UIKit.framework */; };
 		B1DB43FF155D12370032B2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB43C1155D0F620032B2AD /* Foundation.framework */; };
 		B1DB4405155D12370032B2AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB4403155D12370032B2AD /* InfoPlist.strings */; };
-		B1DB4408155D12370032B2AD /* FibonacciUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */; };
-		B1E64967155D198500D349D1 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = B1E64966155D198500D349D1 /* Fibonacci.c */; };
-		B1E64969155D1AF400D349D1 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = B1E64966155D198500D349D1 /* Fibonacci.c */; };
+		B1E6496F1562666500D349D1 /* XPFibonacciTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6496E1562666500D349D1 /* XPFibonacciTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +69,9 @@
 		B1DB43FC155D12370032B2AD /* FibonacciUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DB4402155D12370032B2AD /* FibonacciUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibonacciUnitTests-Info.plist"; sourceTree = "<group>"; };
 		B1DB4404155D12370032B2AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1DB4406155D12370032B2AD /* FibonacciUnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciUnitTests.h; sourceTree = "<group>"; };
-		B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciUnitTests.m; sourceTree = "<group>"; };
 		B1DB4409155D12370032B2AD /* FibonacciUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FibonacciUnitTests-Prefix.pch"; sourceTree = "<group>"; };
-		B1E64965155D196200D349D1 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
-		B1E64966155D198500D349D1 /* Fibonacci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
+		B1E6496D1562666500D349D1 /* XPFibonacciTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPFibonacciTest.h; sourceTree = "<group>"; };
+		B1E6496E1562666500D349D1 /* XPFibonacciTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPFibonacciTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +150,6 @@
 				B1DB43D4155D0F620032B2AD /* XPViewController_iPhone.xib */,
 				B1DB43D7155D0F620032B2AD /* XPViewController_iPad.xib */,
 				B1DB43C6155D0F620032B2AD /* Supporting Files */,
-				B1E64965155D196200D349D1 /* Fibonacci.h */,
-				B1E64966155D198500D349D1 /* Fibonacci.c */,
 			);
 			path = Fibonacci;
 			sourceTree = "<group>";
@@ -193,9 +187,9 @@
 		B1DB4400155D12370032B2AD /* FibonacciUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				B1DB4406155D12370032B2AD /* FibonacciUnitTests.h */,
-				B1DB4407155D12370032B2AD /* FibonacciUnitTests.m */,
 				B1DB4401155D12370032B2AD /* Supporting Files */,
+				B1E6496D1562666500D349D1 /* XPFibonacciTest.h */,
+				B1E6496E1562666500D349D1 /* XPFibonacciTest.m */,
 			);
 			path = FibonacciUnitTests;
 			sourceTree = "<group>";
@@ -362,7 +356,6 @@
 				B1DB43CC155D0F620032B2AD /* main.m in Sources */,
 				B1DB43D0155D0F620032B2AD /* XPAppDelegate.m in Sources */,
 				B1DB43D3155D0F620032B2AD /* XPViewController.m in Sources */,
-				B1E64967155D198500D349D1 /* Fibonacci.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1DB4408155D12370032B2AD /* FibonacciUnitTests.m in Sources */,
-				B1E64969155D1AF400D349D1 /* Fibonacci.c in Sources */,
+				B1E6496F1562666500D349D1 /* XPFibonacciTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
